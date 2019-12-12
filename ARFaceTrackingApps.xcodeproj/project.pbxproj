@@ -14,6 +14,9 @@
 		24741E1723A2611000B41FE1 /* ARFaceTrackingApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24741E1523A2611000B41FE1 /* ARFaceTrackingApps.xcdatamodeld */; };
 		24741E1923A2611100B41FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24741E1823A2611100B41FE1 /* Assets.xcassets */; };
 		24741E1C23A2611100B41FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24741E1A23A2611100B41FE1 /* LaunchScreen.storyboard */; };
+		24741E2423A261AB00B41FE1 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741E2323A261AB00B41FE1 /* Mask.swift */; };
+		24741E2623A261BF00B41FE1 /* VirtualFaceContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741E2523A261BF00B41FE1 /* VirtualFaceContent.swift */; };
+		24741E2823A261D600B41FE1 /* VirtualContentUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741E2723A261D600B41FE1 /* VirtualContentUpdater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		24741E1823A2611100B41FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24741E1B23A2611100B41FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24741E1D23A2611100B41FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24741E2323A261AB00B41FE1 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		24741E2523A261BF00B41FE1 /* VirtualFaceContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualFaceContent.swift; sourceTree = "<group>"; };
+		24741E2723A261D600B41FE1 /* VirtualContentUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualContentUpdater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				24741E0E23A2611000B41FE1 /* SceneDelegate.swift */,
 				24741E1023A2611000B41FE1 /* ViewController.swift */,
 				24741E1223A2611000B41FE1 /* Main.storyboard */,
+				24741E2323A261AB00B41FE1 /* Mask.swift */,
+				24741E2523A261BF00B41FE1 /* VirtualFaceContent.swift */,
+				24741E2723A261D600B41FE1 /* VirtualContentUpdater.swift */,
 				24741E1823A2611100B41FE1 /* Assets.xcassets */,
 				24741E1A23A2611100B41FE1 /* LaunchScreen.storyboard */,
 				24741E1D23A2611100B41FE1 /* Info.plist */,
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				24741E1723A2611000B41FE1 /* ARFaceTrackingApps.xcdatamodeld in Sources */,
+				24741E2823A261D600B41FE1 /* VirtualContentUpdater.swift in Sources */,
 				24741E1123A2611000B41FE1 /* ViewController.swift in Sources */,
 				24741E0D23A2611000B41FE1 /* AppDelegate.swift in Sources */,
 				24741E0F23A2611000B41FE1 /* SceneDelegate.swift in Sources */,
+				24741E2623A261BF00B41FE1 /* VirtualFaceContent.swift in Sources */,
+				24741E2423A261AB00B41FE1 /* Mask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
